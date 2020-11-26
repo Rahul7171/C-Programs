@@ -1,21 +1,14 @@
 //
 //  main.c
-//  Add.C
+//  HelloWorld
 //
 //  Created by Rahul Bagal on 26/11/20.
 //
 
 #include <stdio.h>
 
-int main()
-{
+int main(int argc, const char * argv[]) {
     // insert code here...
-    int a,b;
-    printf("Enter the value of a:\n");
-    scanf("%d",&a);
-    printf("Enter the value of b:\n");
-    scanf("%d",&b);
-    printf("The sum is %d\n", a+b);
-    
+    printf("Hello, World!\n");
     return 0;
 }
